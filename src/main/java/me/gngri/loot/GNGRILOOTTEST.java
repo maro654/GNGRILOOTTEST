@@ -12,6 +12,9 @@ public final class GNGRILOOTTEST extends JavaPlugin {
 
         saveDefaultConfig();
 
+        // Register commands
+        getCommand("loot").setExecutor(new LootCommand());
+
         getLogger().info("GNGRILOOTTEST Enabled!");
     }
 
