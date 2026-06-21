@@ -1,0 +1,20 @@
+name: GNGRILOOTTEST
+version: 1.0
+main: me.gngri.loot.GNGRILOOTTEST
+api-version: "1.21"
+
+commands:
+loot:
+description: Open loot menu
+permission: gngriloot.use
+
+editloot:
+description: Edit loot page
+permission: gngriloot.edit
+
+permissions:
+gngriloot.use:
+default: true
+
+gngriloot.edit:
+default: op
